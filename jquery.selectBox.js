@@ -92,8 +92,7 @@
 
         if (!$(window).data('selectBox-bindings')) {
             $(window)
-                .data('selectBox-bindings', true)
-                .bind('scroll.selectBox', this.hideMenus)
+                .data('selectBox-bindings', true)                
                 .bind('resize.selectBox', this.hideMenus);
         }
 
